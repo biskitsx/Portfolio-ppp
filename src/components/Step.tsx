@@ -43,7 +43,7 @@ function Step() {
           onClick={() => (window as any).my_modal_3.showModal()}
         >
           <p>University 🎓</p>
-          <p className="font-semibold text-primary-focus">KU81 (CPE35)</p>
+          <p className="font-semibold text-primary-focus">KU81 (AI42)</p>
         </button>
         <dialog id="my_modal_3" className="modal">
           <form method="dialog" className="modal-box">
@@ -51,7 +51,7 @@ function Step() {
               University (2020-now)
             </h3>
             <p className="py-4">
-              Faculty of Engineering, Computer Engineering major at Kasetsart
+              Faculty of Agro Industry, Food and Technology major at Kasetsart
               University
             </p>
           </form>
@@ -67,16 +67,17 @@ function Step() {
         >
           <p>Internship 🦖</p>
           <p className="font-semibold text-primary-focus">
-            Appsynth Asia Co., Ltd
+            SCUT (Guangzhou)
           </p>
         </button>
         <dialog id="my_modal_4" className="modal">
           <form method="dialog" className="modal-box">
             <h3 className="font-bold text-lg text-primary">
-              Internship (April - October 2024)
+              Internship (April - June 2024)
             </h3>
             <p className="py-4">
-              Full Stack Developer at Appsynth Asia Co., Ltd
+              Interned as a Food Scientist at South China University of Technology
+              (SCUT) in Guangzhou, China.
             </p>
           </form>
           <form method="dialog" className="modal-backdrop">

@@ -8,16 +8,11 @@ function Footer() {
             <div className='w-11/12 lg:w-225 flex items-center justify-between'>
                 <p className='text-white font-semibold uppercase tracking-wide '>&copy; Copyright {new Date().getFullYear()}</p>
                 <div className='flex gap-3 text-2xl justify-center transition-transform text-white'>
-                    <a href="https://www.facebook.com/kittspk/" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faFacebook} className='hover:scale-110 ' />
-                    </a>
-                    <a href="https://www.instagram.com/ksuphakyy/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/geneginnn/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram} className=' hover:scale-110 ' />
                     </a>
-                    <a href="https://github.com/biskitsx" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} className=' hover:scale-110 ' />
-                    </a>
-                    <a href="https://www.linkedin.com/in/suphakit-s/" target="_blank" rel="noopener noreferrer">
+                    
+                    <a href="https://www.linkedin.com/in/pimphiphat-jirawatthanaphan-a4b767280/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className=' hover:scale-110 ' />
                     </a>
                 </div>

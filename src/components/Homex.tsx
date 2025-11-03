@@ -23,7 +23,7 @@ function Homex() {
         <div className="flex flex-col items-center gap-8 py-10 md:flex-row-reverse lg:w-225 md:justify-between">
           <MotionFaded className="text-secondary-focus">
             <Image
-              src="/birthday.JPG"
+              src="/S__104702022_0.jpg"
               alt="my-pic"
               width={300}
               height={300}
@@ -37,14 +37,7 @@ function Homex() {
                 <TypewriterComponent
                   options={{
                     strings: [
-                      "TypeScript",
-                      "JavaScript",
-                      "Golang",
-                      "ReactJS",
-                      "NextJS",
-                      "Web",
-                      "Backend",
-                      "FullStack",
+                      "Food Science",
                     ],
                     autoStart: true,
                     loop: true,
@@ -52,15 +45,16 @@ function Homex() {
                 />
               </span>
               <div className="relative">
-                Developer
+                Graduate
+                
                 {/* <Image alt='sticker' src="/sticker2.png" width={1000} height={1000} className='w-32 absolute -top-12 right-4 animate-bounce' /> */}
               </div>
             </h1>
 
             <p className="text-lg font-normal ">
-              Hello, I&apos;m Kit Suphakit. I&apos;m interested in{" "}
+              Hello, I&apos;m Gene Pimphiphat. I&apos;m graduated from{" "}
               <span className="text-secondary font-semibold  ">
-                Full-Stack Developer
+                Kasetsart University
               </span>{" "}
               base in Thailand{" "}
               <FontAwesomeIcon
@@ -71,17 +65,7 @@ function Homex() {
 
             <div className="flex gap-5 text-4xl justify-center transition-transform">
               <a
-                href="https://www.facebook.com/kittspk/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  className="hover:text-blue-600 hover:scale-110 "
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/ksuphakyy/"
+                href="https://www.instagram.com/geneginn/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -91,17 +75,7 @@ function Homex() {
                 />
               </a>
               <a
-                href="https://github.com/biskitsx"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="hover:text-purple-800 hover:scale-110 "
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/suphakit-s/"
+                href="https://www.linkedin.com/in/pimphiphat-jirawatthanaphan-a4b767280/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -110,17 +84,7 @@ function Homex() {
                   className="hover:text-blue-600 hover:scale-110 "
                 />
               </a>
-              <a
-                href="https://medium.com/@kitsugarr"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faMedium}
-                  className="hover:text-black hover:scale-110 "
-                />
-              </a>
-            </div>
+              </div>
           </MotionFaded>
         </div>
         <MotionFaded>

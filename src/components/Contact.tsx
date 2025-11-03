@@ -15,12 +15,12 @@ const contact = [
   {
     icon: faEnvelope,
     name: "Email",
-    val: "suphakit.songs@gmail.com",
+    val: "pimphiphat.j@gmail.com",
   },
   {
     icon: faPhone,
     name: "Telephone",
-    val: "098-254-6225",
+    val: "092-669-9447",
   },
 ];
 

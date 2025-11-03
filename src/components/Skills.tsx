@@ -14,7 +14,8 @@ const backEnd = [
   "GO",
   "Docker",
 ];
-import { logo, softSkills } from "@/data/skills";
+
+import { hardSkills, logo, softSkills } from "@/data/skills";
 
 function Skills() {
   return (
@@ -49,23 +50,15 @@ function Skills() {
             </motion.p>
           </div>
 
-          <div className="flex flex-wrap gap-3">
-            {logo.map((item, index) => {
-              const isExternal = item.externalLink;
-              let src = item.src;
-              if (!isExternal) {
-                const githubIconBase =
-                  "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/";
-                src = githubIconBase + item.src;
-              }
-
+          <div className="grid grid-cols-2  gap-5">
+            {hardSkills.map((item, index) => {
               return (
-                <a
-                  className="rounded-full shadow-md bg-white p-2 hover:scale-105 transition"
+                <div
+                  className="bg-base-100 p-2 rounded-md shadow-md font-medium flex justify-center items-center "
                   key={index}
-                  href={item.link}
                 >
-                  <motion.div
+                  <motion.p
+                    className="text-center text-sm"
                     initial={{ scale: 0.1, opacity: 1 }}
                     whileInView={{
                       scale: 1,
@@ -73,15 +66,9 @@ function Skills() {
                       transition: { duration: 0.5 },
                     }}
                   >
-                    <Image
-                      src={src}
-                      alt={item.title}
-                      width={30}
-                      height={30}
-                      className=""
-                    />
-                  </motion.div>
-                </a>
+                    {item}
+                  </motion.p>
+                </div>
               );
             })}
           </div>
@@ -138,16 +125,12 @@ function Skills() {
             <div className="mockup-phone">
               <div className="camera"></div>
               <div className="display">
-                <video controls muted autoPlay>
-                  <source src="/video/presentation.mp4" type="video/mp4" />
-                </video>
+                <img
+                  className="w-full"
+                  src="/S__104702025_0.jpg"
+                />
                 {/* <div className="artboard artboard-demo phone-1">Hi.</div> */}
               </div>
-            </div>
-            <div className="bg-white rounded-md p-1">
-              <h1 className="text-center font-medium">
-                Internship Project Showcase 🚀
-              </h1>
             </div>
             {/* <Image
               alt="sticker"

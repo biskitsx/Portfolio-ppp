@@ -86,3 +86,10 @@ export const softSkills = [
   "Decision Making 🍰",
   "Communication 🗣️",
 ];
+
+export const hardSkills = [
+  "Research and Development 🔬",
+  "Scentsory Analysis 👃",
+  "Quality Control ✅",
+  "Food Safety Standards 🧴",
+]

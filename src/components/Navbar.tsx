@@ -10,7 +10,7 @@ function Navbar() {
     <div className="w-full flex justify-between font-semibold px-10 bg-base-100 py-6 items-center top-0 transition-transform sticky lg:fixed z-50">
       <Link href="#" className=" cursor-pointer">
         <h2 className="font-bold text-lg flex gap-2 items-center">
-          suphakit {/* SUPHAKIT{" "} */}
+          triplep {/* SUPHAKIT{" "} */}
           <FontAwesomeIcon
             icon={faHippo}
             className="text-accent !text-lg"
